@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+div#content{
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+canvas {
+    background-color: white;
+}
+div#titulo h1 {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+div#boton {
+    display: flex;
+    justify-content: center;
+    
+}
+div#boton button#reset {
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: .8em;
+    cursor: pointer;
+    background-color: #d35400;
+    border: none;
+    color: white;
+}
+div#boton button#reset:hover {
+    background-color: #e67e22;
+}
+
+div#boton button#limpiar {
+    width: 120px;
+    height: 40px;
+    font-size: .8em;
+    cursor: pointer;
+    background-color: #2980b9;
+    border: none;
+    color: white;
+}
+div#boton button#limpiar:hover {
+    background-color: #3498db;
+}
+input[type=file].hidden {
+  color: transparent;
+}
+
+div#saveData {
+    color: white;
+    text-align: center;
+}
+div#saveData a {
+    margin-left: -150px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    outline: 1px solid white;
+    line-height: 40px;
+    font-size: .9em;
+    cursor: pointer;
+    transition: .5s background-color;
+    text-decoration: none;
+    color: white;
+}
+div#saveData a:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
